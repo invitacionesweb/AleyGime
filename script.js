@@ -11,9 +11,9 @@ function actualizarContador() {
   const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
   document.getElementById('dias').textContent = dias;
-  document.getElementById('horas').textContent = horas;
-  document.getElementById('minutos').textContent = minutos;
-  document.getElementById('segundos').textContent = segundos;
+  document.getElementById('Horas').textContent = horas;
+  document.getElementById('Minutos').textContent = minutos;
+  document.getElementById('Segundos').textContent = segundos;
 }
 
 // Actualizar cada segundo
